@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteJSL.Application", "TesteJSL\TesteJSL.Application.csproj", "{4610DB5E-B8B0-4DB0-9129-3AA40045D747}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{0FC0100C-8437-4475-9A57-7731A4E62969}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{85A739C9-11B7-451D-8003-E0616683C83E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Service", "3 - Service", "{A44A54A3-52D0-4E64-A6E1-55E8D3603585}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{76C19E8D-8217-44F8-80EC-37D493A52FA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{A31BA8C3-DBAC-4A66-8877-1BDA71FD99A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteJSL.Domain", "TesteJSL.Domain\TesteJSL.Domain.csproj", "{71F1F7BC-45AC-449F-8E62-97E35F33CFE3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteJSL.Services", "TesteJSL.Service\TesteJSL.Services.csproj", "{5491952A-91C9-48B5-8732-CC63D450D7E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteJSL.Infra.Data", "TesteJSL.Infra\TesteJSL.Infra.Data.csproj", "{852EA1F4-F68B-4F64-9675-D5CF58E5651F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{E76ABC2C-8A83-45F8-AF87-3B5E7FE5E5DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteJSL.Test", "TesteJSL.Test\TesteJSL.Test.csproj", "{8B006FD3-09A4-48A1-BDAB-A4EE0FC24A0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Teste - Teorico", "Teste - Teorico", "{DF9A1E38-DB01-4358-A85A-98B508D0FD6E}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Users\lenovo\Documents\TesteJSL.docx = ..\..\..\..\Users\lenovo\Documents\TesteJSL.docx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4610DB5E-B8B0-4DB0-9129-3AA40045D747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4610DB5E-B8B0-4DB0-9129-3AA40045D747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4610DB5E-B8B0-4DB0-9129-3AA40045D747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4610DB5E-B8B0-4DB0-9129-3AA40045D747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71F1F7BC-45AC-449F-8E62-97E35F33CFE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71F1F7BC-45AC-449F-8E62-97E35F33CFE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71F1F7BC-45AC-449F-8E62-97E35F33CFE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71F1F7BC-45AC-449F-8E62-97E35F33CFE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5491952A-91C9-48B5-8732-CC63D450D7E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5491952A-91C9-48B5-8732-CC63D450D7E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5491952A-91C9-48B5-8732-CC63D450D7E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5491952A-91C9-48B5-8732-CC63D450D7E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{852EA1F4-F68B-4F64-9675-D5CF58E5651F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{852EA1F4-F68B-4F64-9675-D5CF58E5651F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{852EA1F4-F68B-4F64-9675-D5CF58E5651F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{852EA1F4-F68B-4F64-9675-D5CF58E5651F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B006FD3-09A4-48A1-BDAB-A4EE0FC24A0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B006FD3-09A4-48A1-BDAB-A4EE0FC24A0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B006FD3-09A4-48A1-BDAB-A4EE0FC24A0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B006FD3-09A4-48A1-BDAB-A4EE0FC24A0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4610DB5E-B8B0-4DB0-9129-3AA40045D747} = {0FC0100C-8437-4475-9A57-7731A4E62969}
+		{A31BA8C3-DBAC-4A66-8877-1BDA71FD99A4} = {76C19E8D-8217-44F8-80EC-37D493A52FA6}
+		{71F1F7BC-45AC-449F-8E62-97E35F33CFE3} = {85A739C9-11B7-451D-8003-E0616683C83E}
+		{5491952A-91C9-48B5-8732-CC63D450D7E7} = {A44A54A3-52D0-4E64-A6E1-55E8D3603585}
+		{852EA1F4-F68B-4F64-9675-D5CF58E5651F} = {A31BA8C3-DBAC-4A66-8877-1BDA71FD99A4}
+		{8B006FD3-09A4-48A1-BDAB-A4EE0FC24A0A} = {E76ABC2C-8A83-45F8-AF87-3B5E7FE5E5DA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B2F3411-447E-48A3-BE67-5DAAEE22D681}
+	EndGlobalSection
+EndGlobal
